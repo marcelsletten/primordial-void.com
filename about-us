@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Primordial Void</title>
+    <link rel="icon" href="images/ct-favicon-demo-ii.png">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <style>
+body, html {
+  box-sizing: border-box;
+  color: black;
+  background-color: #E6E6FA;
+  font-size: 29.560px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+footer {
+    background-color: #E6E6FA;
+    color: black;
+    font-size: 19.560px;
+    margin-top: 140px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+	    
+	        
+	    a:link { color: black;
+     background-color: #E6E6FA;
+	 text-decoration: none;
+	    
+	}
+    a:hover {
+     background-color: #E6E6FA;
+     text-decoration: underline;
+     font-weight: none;
+     color: black;
+     }
+     a:visited {color: black;
+     background-color: #E6E6FA;}
+
+.topnav {
+  overflow: visible;
+  background-color: #E6E6FA;
+  margin-top: 40px;
+  margin-bottom: 140px;
+  text-align: center;
+}
+
+.left {
+ float: left;
+ width: 550px;
+}
+
+.desc {
+    overflow:hidden;
+    padding-left: 10px;
+    margin-right: 10px;
+}
+
+.stuff {
+  margin-left: 66px;
+  margin-right: 66px;
+  text-align: left;
+}
+
+.stuff2 {
+  align-content: center;
+}
+
+.float{
+	width:80px;
+	height:80px;
+	bottom:30px;
+  right:30px;
+  top: 30px;
+	border-radius:50px;
+}
+
+.my-float{
+	margin-top:22px;
+}
+
+.logo {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+}
+
+.green_text {
+  color: green;
+}
+
+    ol { 
+    list-style-type: decimal-leading-zero;
+}
+
+.row {
+    background-color: transparent;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.flex-container {
+    flex-direction:row;
+    display: -webkit-flex;
+    display: inline-flex;
+    width: auto;
+    align-content: center;
+    flex-flow: row wrap;
+    margin-top: 100px;
+    justify-content: center;
+}
+
+.logo {
+  max-width: 100%;
+  width: 126px;
+  height: 126px;
+  position: relative;
+        display: inline-block;
+        margin-top: auto;
+        margin-bottom: auto;
+}
+
+.logo .img-top {
+  display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 99;
+}
+
+.logo:hover .img-top {
+  display: inline;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  border: 2px solid black;
+  border-bottom: none;
+  text-align: left;
+  font-weight: normal;
+  font-size: 29.560px;
+  font-family: Times;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+}
+
+.catno {
+font-size: 29.560px;
+font-family: Times;
+text-align: right;
+}
+
+td a {
+  display: block;
+  display: flex;
+  justify-content: space-between;
+  min-height:100%;
+  width:100%;
+  background-color: #E6E6FA;
+  color: black;
+  text-decoration: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+td a.link {
+  display: block;
+  width: 100%;
+}
+
+td a:hover {
+  text-decoration: none;
+  background-color: black;
+  color: #E6E6FA;
+}
+	   
+    </style>
+</head>
+<body>
+    <div class="topnav">
+      <p><a href="/index"><img style="width: 80%; height: 80%;" src="images/PV NEU BANNER.png"></a></p>
+	    		<p><a href="/about">About</a> | <a href="mailto:marcelsletten@gmail.com" target="_blank">Contact</a></p>
+      </div>
+    <div class="stuff">
+            <p style="font-size: 59.560px; margin-bottom: 20px; font-weight: bold;">About</p>
+      <p><img src="images/PV-Logo.png" style="max-width: 100%;"></p>
+    <p>Primordial Void is a label founded in Lodi, California, in 2018 by Marcel Sletten. Currently based in Athens, Georgia, it is dedicated to publishing digital, physical, and metaphysical editions of music and visual art. Active contributors include Sletten, Samuel Miller (Dividers, Shabbat), Will Simpson (Crime Friend), Reed Winckler, Noah (Fishbowl Prairie), Andreu G. Serra (Ubaldo), Susu Laroche, Kyle Field (Little Wings), Marc Matchak, and Jack Callahan.</p>
+<p>For all inquiries, please write to <a href="mailto:primordialvoiddd@gmail.com" target="_blank">primordialvoiddd@gmail.com</a>.</p>
+    <p style="font-size: 19.560px;">Design by <a href="https://www.marcelsletten.com/" target="_blank">Marcel Sletten</a>
+    <br>Primordial Void Logo by <a href="http://gustavoeandi.com/" target="_blank">Gustavo Eandi</a> and <a href="http://blowinguptheworkshop.com/" target="_blank">Matthew Kent</a></p>    
+    </div>
+   <footer><div class="logo"><a href="/index"><img src="images/PV-Coin-Logo.png" style="max-width: 100%; width: 126px; height: 126px;"></a>
+      <a href="/index"><img src="images/PV-Logo.png" class="img-top" style="max-width: 100%; width: 126px; height: 126px;"></a></div>
+    <p>Honest Music Since 2018</p></footer>
+</body>
+</html>
