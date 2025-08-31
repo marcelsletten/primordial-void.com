@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Actress - Ghettoville - Primordial Void</title>
+    <link rel="icon" href="images/PV-Logo-Silhouette.png">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <style>
+body, html {
+  box-sizing: border-box;
+  color: black;
+  background-color: #E6E6FA;
+  font-size: 29.560px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+footer {
+    background-color: #E6E6FA;
+    color: black;
+    font-size: 19.560px;
+    margin-top: 140px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+	    
+	        
+	    a:link { color: black;
+     background-color: #E6E6FA;
+	 text-decoration: none;
+	    
+	}
+    a:hover {
+     background-color: #E6E6FA;
+     text-decoration: underline;
+     font-weight: none;
+     color: black;
+     }
+     a:visited {color: black;
+     background-color: #E6E6FA;}
+
+.topnav {
+  overflow: visible;
+  background-color: #E6E6FA;
+  margin-top: 40px;
+  margin-bottom: 140px;
+  text-align: center;
+display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.topnav a {
+  background-color: #E6E6FA;
+  color: black;
+  margin-right: 20px;
+  text-decoration: none;
+  font-size: 29.560px;
+  line-height: normal;
+  border: 2px solid black;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+}
+
+.topnav a:hover {
+  text-decoration: none;
+  background-color: black;
+  color: #E6E6FA;
+}
+
+.topnav a.active {
+  background-color: black;
+  text-decoration: underline;
+  color: #E6E6FA;
+}
+
+		.topnav2 {
+  overflow: visible;
+  background-color: #E6E6FA;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.topnav2 a {
+  background-color: #d1e5ff;
+  color: black;
+  margin-right: 40px;
+  text-decoration: none;
+  font-size: 39.560px;
+  font-weight: bold;
+  line-height: normal;
+  border: 2px solid #d1e5ff;
+  border-radius: 19.560px;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+}
+
+.topnav2 a:hover {
+  text-decoration: none;
+  background-color: black;
+  border: 2px solid black;
+  color: #d1e5ff;
+}
+
+.topnav2 a.active {
+  background-color: black;
+  border: 2px solid black;
+  text-decoration: underline;
+  color: #d1e5ff;
+}
+
+.left {
+ float: left;
+ width: 550px;
+}
+
+.desc {
+    overflow:hidden;
+    padding-left: 10px;
+    margin-right: 10px;
+}
+
+.stuff {
+  margin-left: 66px;
+  margin-right: 66px;
+  text-align: left;
+}
+
+.stuff2 {
+  align-content: center;
+}
+
+.float{
+	width:80px;
+	height:80px;
+	bottom:30px;
+  right:30px;
+  top: 30px;
+	border-radius:50px;
+}
+
+.my-float{
+	margin-top:22px;
+}
+
+.logo {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+}
+
+.green_text {
+  color: green;
+}
+
+		.red_text {
+			color: red;
+		}
+
+    ol { 
+    list-style-type: decimal-leading-zero;
+}
+
+.row {
+    background-color: transparent;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.flex-container {
+    flex-direction:row;
+    display: -webkit-flex;
+    display: inline-flex;
+    width: auto;
+    align-content: center;
+    flex-flow: row wrap;
+    margin-top: 100px;
+    justify-content: center;
+}
+
+.logo {
+  max-width: 100%;
+  width: 126px;
+  height: 126px;
+  position: relative;
+        display: inline-block;
+        margin-top: auto;
+        margin-bottom: auto;
+}
+
+.logo .img-top {
+  display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 99;
+}
+
+.logo:hover .img-top {
+  display: inline;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  border: 2px solid black;
+  border-bottom: none;
+  text-align: left;
+  font-weight: normal;
+  font-size: 29.560px;
+  font-family: Times;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+}
+
+.catno {
+font-size: 29.560px;
+font-family: Times;
+text-align: right;
+}
+
+td a {
+  display: block;
+  display: flex;
+  justify-content: space-between;
+  min-height:100%;
+  width:100%;
+  background-color: #E6E6FA;
+  color: black;
+  text-decoration: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+td a.link {
+  display: block;
+  width: 100%;
+}
+
+td a:hover {
+  text-decoration: none;
+  background-color: black;
+  color: #E6E6FA;
+}
+	   
+    </style>
+</head>
+<body>
+  <div class="topnav">
+        <a href="/index">Primordial Void</a>
+        <a href="/about">About</a>
+        <a href="/shows">Shows</a>
+        <a style="background-color: black; color: #E6E6FA;" href="/Distro">Distro</a>
+	  <a href="https://www.instagram.com/primordial.void/" target="_blank">Instagram</a>	    	    	    	    
+	    <a href="https://www.youtube.com/channel/UCinQWec3PCrbEQeNQ6j4eHQ" target="_blank">YouTube</a>
+	     <a href="mailto:primordialvoiddd@gmail.com" target="_blank">Email</a>
+      </div>
+    <div class="stuff">
+        <p style="font-size: 59.560px; margin-bottom: 20px; font-weight: bold;">Dean Blunt & Inga Copeland - Black Is Beautiful</p>
+      <p><img src="images/IMG_0129.jpeg" style="max-width: 100%;"></p>
+    <p class="topnav2"><span class="red_text"><b>SOLD OUT</b></span></a></p></p>  
+        <ul>
+		<li>The original CD edition of Dean Blunt and Inga Copeland's 2012 classic, now available in the U.S. once again.</li>
+<li>Packaged in an oversized cartridge-style case.</li>
+        </ul>  
+				<p><em>RIYL: Hype Williams, Matrix Metals, slowed-down Black Sabbath, Steely Dan and Fleetwood Mac remixed by Anna Domino</em>
+    <p><b>Track Listing</b></p>
+<p>01 1 (Venice Dreamway)
+<br>02 2
+<br>03 3
+<br>04 4
+<br>05 5
+<br>06 6
+<br>07 7
+<br>08 8
+<br>09 9
+<br>10 10
+<br>11 11
+<br>12 12
+<br>13 13
+<br>14 14
+<br>15 15</p>
+				<p><strong>Catalog Number</strong> HDBCD012
+<br><strong>Release Date</strong> June 12, 2012
+<br><strong>Record Label</strong> Hyperdub
+           <br><strong>Format</strong> CD</p>
+		<p><b>Dean Blunt</b> and <b>Inga Copeland</b>’s hazy 2012 classic <em>Black Is Beautiful</em> is available on CD in the U.S once again, and these are some of the very last copies you’ll find anywhere. It just might be the duo’s most fully realized statement in their brief discography, and a true testament to the ultra-lo-fi, dub- and synthpop-inspired <b>Hype Williams</b> sound before the elusive pair eventually split. We have only 12 copies left in stock—this is guaranteed to sell out instantly.</p>
+<p>From the original press release:</p>
+		<p>“After three albums for as many labels, Dean Blunt and Inga Copeland, also of the group Hype Williams, release their debut <b>Hyperdub</b> LP, <em>Black Is Beautiful</em>. Amid rumours circulating, and confirmed by their "advisor" <b>Denna Frances</b>, the album was recorded during a tremulous period for the two : Inga Copelands Arsenal girls tryouts, Dean's 'Waschbrgate' trial (he was implicated in being behind a one night robbing spree across 16 taxidermists based in London and the South East, allegedly only for racoons) and his subsequent conversion to Nation of Islam upon being acquitted. <em>Black Is Beautiful</em> is laced with their signature hazy glow and is full of crunched eurovision lullabies, kinetic drum machine jams, unsettling funk, smeared walls of synth, moments of unadulterated opiated bliss, mogadon rap, infinite coughs and insights into the odd sexual behaviour of crackers.”</p>
+		<p><iframe width="1280" height="720" src="https://www.youtube.com/embed/4ssWf8qjpuw?si=5rWdjm3fJQ2cWs56" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
+	      <p><img src="images/IMG_0117.jpg" style="max-width: 100%;"></p>
+		<p><img src="images/IMG_0118.jpg" style="max-width: 100%;"></p>
+	</div>
+          </div>
+          </div> 
+      </div>
+    </div>
+    <footer><div class="logo"><a href="/index"><img src="images/PV-Coin-Logo.png" style="max-width: 100%; width: 126px; height: 126px;"></a>
+      <a href="/index"><img src="images/PV-Logo.png" class="img-top" style="max-width: 100%; width: 126px; height: 126px;"></a></div>
+    <p>Honest Music Since 2018</p></footer>
+</body>
+</html>
