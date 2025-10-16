@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Basic Channel - Phylyps Trak - Primordial Void</title>
+    <link rel="icon" href="images/PV-Logo-Silhouette.png">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <style>
+body, html {
+  box-sizing: border-box;
+  color: black;
+  background-color: #E6E6FA;
+  font-size: 29.560px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+footer {
+    background-color: #E6E6FA;
+    color: black;
+    font-size: 19.560px;
+    margin-top: 140px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+	    
+	        
+	    a:link { color: black;
+     background-color: #E6E6FA;
+	 text-decoration: none;
+	    
+	}
+    a:hover {
+     background-color: #E6E6FA;
+     text-decoration: underline;
+     font-weight: none;
+     color: black;
+     }
+     a:visited {color: black;
+     background-color: #E6E6FA;}
+
+.topnav {
+  overflow: visible;
+  background-color: #E6E6FA;
+  margin-top: 40px;
+  margin-bottom: 140px;
+  text-align: center;
+display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.topnav a {
+  background-color: #E6E6FA;
+  color: black;
+  margin-right: 20px;
+  text-decoration: none;
+  font-size: 29.560px;
+  line-height: normal;
+  border: 2px solid black;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+}
+
+.topnav a:hover {
+  text-decoration: none;
+  background-color: black;
+  color: #E6E6FA;
+}
+
+.topnav a.active {
+  background-color: black;
+  text-decoration: underline;
+  color: #E6E6FA;
+}
+
+		.topnav2 {
+  overflow: visible;
+  background-color: #E6E6FA;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.topnav2 a {
+  background-color: #d1e5ff;
+  color: black;
+  margin-right: 40px;
+  text-decoration: none;
+  font-size: 39.560px;
+  font-weight: bold;
+  line-height: normal;
+  border: 2px solid #d1e5ff;
+  border-radius: 19.560px;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+}
+
+.topnav2 a:hover {
+  text-decoration: none;
+  background-color: black;
+  border: 2px solid black;
+  color: #d1e5ff;
+}
+
+.topnav2 a.active {
+  background-color: black;
+  border: 2px solid black;
+  text-decoration: underline;
+  color: #d1e5ff;
+}
+
+.left {
+ float: left;
+ width: 550px;
+}
+
+.desc {
+    overflow:hidden;
+    padding-left: 10px;
+    margin-right: 10px;
+}
+
+.stuff {
+  margin-left: 66px;
+  margin-right: 66px;
+  text-align: left;
+}
+
+.stuff2 {
+  align-content: center;
+}
+
+.float{
+	width:80px;
+	height:80px;
+	bottom:30px;
+  right:30px;
+  top: 30px;
+	border-radius:50px;
+}
+
+.my-float{
+	margin-top:22px;
+}
+
+.logo {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+}
+
+.green_text {
+  color: green;
+}
+
+    ol { 
+    list-style-type: decimal-leading-zero;
+}
+
+.row {
+    background-color: transparent;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.flex-container {
+    flex-direction:row;
+    display: -webkit-flex;
+    display: inline-flex;
+    width: auto;
+    align-content: center;
+    flex-flow: row wrap;
+    margin-top: 100px;
+    justify-content: center;
+}
+
+.logo {
+  max-width: 100%;
+  width: 126px;
+  height: 126px;
+  position: relative;
+        display: inline-block;
+        margin-top: auto;
+        margin-bottom: auto;
+}
+
+.logo .img-top {
+  display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 99;
+}
+
+.logo:hover .img-top {
+  display: inline;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  border: 2px solid black;
+  border-bottom: none;
+  text-align: left;
+  font-weight: normal;
+  font-size: 29.560px;
+  font-family: Times;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+}
+
+.catno {
+font-size: 29.560px;
+font-family: Times;
+text-align: right;
+}
+
+td a {
+  display: block;
+  display: flex;
+  justify-content: space-between;
+  min-height:100%;
+  width:100%;
+  background-color: #E6E6FA;
+  color: black;
+  text-decoration: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+td a.link {
+  display: block;
+  width: 100%;
+}
+
+td a:hover {
+  text-decoration: none;
+  background-color: black;
+  color: #E6E6FA;
+}
+	   
+    </style>
+</head>
+<body>
+  <div class="topnav">
+        <a href="/index">Primordial Void</a>
+        <a href="/about">About</a>
+        <a href="/shows">Shows</a>
+        <a style="background-color: black; color: #E6E6FA;" href="/Distro">Distro</a>
+	  <a href="https://www.instagram.com/primordial.void/" target="_blank">Instagram</a>	    	    	    	    
+	    <a href="https://www.youtube.com/channel/UCinQWec3PCrbEQeNQ6j4eHQ" target="_blank">YouTube</a>
+	     <a href="mailto:primordialvoiddd@gmail.com" target="_blank">Email</a>
+      </div>
+    <div class="stuff">
+        <p style="font-size: 59.560px; margin-bottom: 20px; font-weight: bold;">Basic Channel - Phylyps Trak</p>
+      <p><img src="images/IMG_0570.jpg" style="max-width: 100%;"></p>
+    <p class="topnav2"><a href="https://square.link/u/jrNxz4D0?src=sheet" target="_blank">Buy Vinyl <span class="green_text">$20</span></a></p></p>  
+        <ul>
+<li>2019 2xCD deluxe edition reissue of Gene Clark's 1974 masterpiece.</li>
+			<li>Housed in a hardbound book cover.
+			<li>Complete with a 28-page booklet (including some brilliant liner notes and gorgeous promotional photos!).</li>
+			<li>The original album remastered at Abbey Road.</li>
+			<li>Second disc of session mixes “forensically worked on” by Sid Griffin (the Long Ryders, Western Electric) and John Wood (Nick Drake, Fairport Convention, Sandy Denny).</li>
+        </ul>  
+    <p><b>Track Listing</b></p>
+		<p><em><b>No Other</b></em></p>
+<p>1.1 Life's Greatest Fool
+<br>1.2 Silver Raven
+<br>1.3 No Other
+<br>1.4 Strength of Strings
+<br>1.5 From a Silver Phial
+<br>1.6 Some Misunderstanding
+<br>1.7 The True One
+<br>1.8 Lady of the North</p>
+		<p><em><b>No Other Sessions {I}</b></em></p>
+		<p>2.1 From a Silver Phial (Version 4)
+<br>2.2 Silver Raven (Version 2)
+<br>2.3 Some Misunderstanding (Version 3)
+		<br>2.4 Life's Greatest Fool (Version 2)
+		<br>2.5 Train Leaves Here This Morning (Version 2)
+		<br>2.6 Lady of the North (Version 2)
+		<br>2.7 The True One (Version 2)
+		<br>2.8 Strength of Strings (Version 2)
+		<br>2.9 No Other (Version 2)</p>
+				<p><strong>Catalog Number</strong> 4AD 0070 CDX
+<br><strong>Release Date</strong> November 8, 2019
+<br><strong>Record Label</strong> 4AD
+           <br><strong>Format</strong> 2xCD</p>
+<p>When <b>Gene Clark</b> released his masterwork <em>No Other</em> in 1974, the former <b>Byrds</b> frontman solidified himself as one of the greatest singer-songwriters of the 20th century. Brilliantly fusing Laurel Canyon country rock with elements of deep psychedelia, R&B, folk, and gospel, the eight songs of <em>No Other</em> represent a visionary artist at his creative peak. If you couldn’t already tell, this is easily one of our all-time favorite albums over at PV, and a seriously important influence for just about everything we do musically.</p>
+<p>Today, we are honored to be carrying some hyper-limited stateside copies of <b>4AD</b>’s lavish double-CD deluxe edition reissue from 2019. On the first disc, a pristine remaster of the original album done by the fine folks at <b>Abbey Road</b>, and on the second, some incredible session mixes “forensically worked on” by <b>Sid Griffin</b> (the Long Ryders, Western Electric) and <b>John Wood</b> (Nick Drake, Fairport Convention, Sandy Denny). It’s a truly special edition; the two discs here housed in a hardbound book cover and packaged alongside a 28-page booklet (with some promotional photos we’d never even seen before!).</p>
+<p>Essentially, this reissue is the perfect introduction for anybody looking to get into Gene Clark, a hero of American folk and country music who deserves a place alongside the greats such as <b>Dylan</b>, <b>Townes</b>, and <b>Parsons.</b> The original recording of “Train Leaves Here This Morning” on disc two is honestly worth the price of admission alone, and these 10 units we have on hand are among some of the last copies you’ll find anywhere in the states. Strongest possible recommendation.</p>
+		<p><iframe width="1280" height="720" src="https://www.youtube.com/embed/nHDDwsgxJpc?si=oqc8p_vmTi-lXB08" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
+		<p><img src="images/IMG_0125.png" style="max-width: 100%;"></p>
+		<p><img src="images/IMG_0695.png" style="max-width: 100%;"></p>
+	</div>
+          </div>
+          </div> 
+      </div>
+    </div>
+    <footer><div class="logo"><a href="/index"><img src="images/PV-Coin-Logo.png" style="max-width: 100%; width: 126px; height: 126px;"></a>
+      <a href="/index"><img src="images/PV-Logo.png" class="img-top" style="max-width: 100%; width: 126px; height: 126px;"></a></div>
+    <p>Honest Music Since 2018</p></footer>
+</body>
+</html>
