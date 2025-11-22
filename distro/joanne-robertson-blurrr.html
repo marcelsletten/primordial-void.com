@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Surface to Air Missive - A V - Primordial Void</title>
+    <link rel="icon" href="images/PV-Logo-Silhouette.png">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <style>
+body, html {
+  box-sizing: border-box;
+  color: black;
+  background-color: #E6E6FA;
+  font-size: 29.560px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+footer {
+    background-color: #E6E6FA;
+    color: black;
+    font-size: 19.560px;
+    margin-top: 140px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+	    
+	        
+	    a:link { color: black;
+     background-color: #E6E6FA;
+	 text-decoration: none;
+	    
+	}
+    a:hover {
+     background-color: #E6E6FA;
+     text-decoration: underline;
+     font-weight: none;
+     color: black;
+     }
+     a:visited {color: black;
+     background-color: #E6E6FA;}
+
+.topnav {
+  overflow: visible;
+  background-color: #E6E6FA;
+  margin-top: 40px;
+  margin-bottom: 140px;
+  text-align: center;
+display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.topnav a {
+  background-color: #E6E6FA;
+  color: black;
+  margin-right: 20px;
+  text-decoration: none;
+  font-size: 29.560px;
+  line-height: normal;
+  border: 2px solid black;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+}
+
+.topnav a:hover {
+  text-decoration: none;
+  background-color: black;
+  color: #E6E6FA;
+}
+
+.topnav a.active {
+  background-color: black;
+  text-decoration: underline;
+  color: #E6E6FA;
+}
+
+		.topnav2 {
+  overflow: visible;
+  background-color: #E6E6FA;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.topnav2 a {
+  background-color: #d1e5ff;
+  color: black;
+  margin-right: 40px;
+  text-decoration: none;
+  font-size: 39.560px;
+  font-weight: bold;
+  line-height: normal;
+  border: 2px solid #d1e5ff;
+  border-radius: 19.560px;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+}
+
+.topnav2 a:hover {
+  text-decoration: none;
+  background-color: black;
+  border: 2px solid black;
+  color: #d1e5ff;
+}
+
+.topnav2 a.active {
+  background-color: black;
+  border: 2px solid black;
+  text-decoration: underline;
+  color: #d1e5ff;
+}
+
+.left {
+ float: left;
+ width: 550px;
+}
+
+.desc {
+    overflow:hidden;
+    padding-left: 10px;
+    margin-right: 10px;
+}
+
+.stuff {
+  margin-left: 66px;
+  margin-right: 66px;
+  text-align: left;
+}
+
+.stuff2 {
+  align-content: center;
+}
+
+.float{
+	width:80px;
+	height:80px;
+	bottom:30px;
+  right:30px;
+  top: 30px;
+	border-radius:50px;
+}
+
+.my-float{
+	margin-top:22px;
+}
+
+.logo {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+}
+
+.green_text {
+  color: green;
+}
+
+    ol { 
+    list-style-type: decimal-leading-zero;
+}
+
+.row {
+    background-color: transparent;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.flex-container {
+    flex-direction:row;
+    display: -webkit-flex;
+    display: inline-flex;
+    width: auto;
+    align-content: center;
+    flex-flow: row wrap;
+    margin-top: 100px;
+    justify-content: center;
+}
+
+.logo {
+  max-width: 100%;
+  width: 126px;
+  height: 126px;
+  position: relative;
+        display: inline-block;
+        margin-top: auto;
+        margin-bottom: auto;
+}
+
+.logo .img-top {
+  display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 99;
+}
+
+.logo:hover .img-top {
+  display: inline;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  border: 2px solid black;
+  border-bottom: none;
+  text-align: left;
+  font-weight: normal;
+  font-size: 29.560px;
+  font-family: Times;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+}
+
+.catno {
+font-size: 29.560px;
+font-family: Times;
+text-align: right;
+}
+
+td a {
+  display: block;
+  display: flex;
+  justify-content: space-between;
+  min-height:100%;
+  width:100%;
+  background-color: #E6E6FA;
+  color: black;
+  text-decoration: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+td a.link {
+  display: block;
+  width: 100%;
+}
+
+td a:hover {
+  text-decoration: none;
+  background-color: black;
+  color: #E6E6FA;
+}
+	   
+    </style>
+</head>
+<body>
+  <div class="topnav">
+        <a href="/index">Primordial Void</a>
+        <a href="/about">About</a>
+        <a href="/shows">Shows</a>
+        <a style="background-color: black; color: #E6E6FA;" href="/Distro">Distro</a>
+	  <a href="https://www.instagram.com/primordial.void/" target="_blank">Instagram</a>	    	    	    	    
+	    <a href="https://www.youtube.com/channel/UCinQWec3PCrbEQeNQ6j4eHQ" target="_blank">YouTube</a>
+	     <a href="mailto:primordialvoiddd@gmail.com" target="_blank">Email</a>
+      </div>
+    <div class="stuff">
+        <p style="font-size: 59.560px; margin-bottom: 20px; font-weight: bold;">Surface to Air Missive - A V</p>
+	      <p><img src="images/IMG_1220.png" style="max-width: 100%;"></p>
+		<p class="topnav2"><a href="https://square.link/u/WCRYlNj0" target="_blank">Buy Vinyl <span class="green_text">$18</span></a></p></p>  
+        <ul>
+<li>Mind-blowing chamber pop brilliance courtesy of Athens, GA's master songwriter Taylor Ross, aka Surface to Air Missive.</li>
+          <li>Original 2016 white vinyl pressing, sold out at the source.</li>
+          <li>Includes MP3 download card.</li>
+        </ul>  
+    <p><b>Track Listing</b></p>
+<p>A1 My Stratocaster
+	<br>A2 I Call Me Us
+	<br>A3 My Finest Shirt
+	<br>A4 Ascent to A V
+	<br>A5 Please No More
+	<br>A6 Sharp Guise
+	<br>A7 Return of Swan
+<br>B1 Full Love Wonder
+<br>B2 Morning Thought
+<br>B3 Something You're Not
+<br>B4 Me and the Gang
+<br>B5 Time Being</p>
+				<p><strong>Catalog Number</strong> WHYT092LP
+<br><strong>Release Date</strong> September 19, 2025
+<br><strong>Record Label</strong> AD 93
+           <br><strong>Format</strong> LP</p>
+<p>It’s no secret that we’re big fans of <b>Taylor Ross</b>’s angular folk rock, which we’ve been following ever since the release of <em>Third Missive</em> back in 2015. The <b>Leaving Records</b> follow-up to that release, 2016’s <em><b>A V</b></em>, is just as brilliant. Heavily incorporating the recorder and billed as “Fake Classical / Neo-Baroque” in style, <em>A V</em> might be Ross’s most polished record to date. It’s a little bit prog, a little bit chamber pop, and very mathy in terms of bass/guitar/drums arrangement. The 12-song record closes with the melodic pop perfection of “Time Being,” which showcases Ross’s generational songwriting talent.</p>
+		<p>We have a few copies of the original white vinyl pressing for sale, which are sold out at the source. Includes an MP3 download card. Grip before it’s too late.</p>
+<p><iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=3177016932/size=large/bgcol=ffffff/linkcol=333333/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://surfacetoairmissive.bandcamp.com/album/a-v">A V by Surface to Air Missive</a></iframe></p>
+		<p><img src="images/IMG_1221.png" style="max-width: 100%;"></p>
+	</div>
+          </div>
+          </div> 
+      </div>
+    </div>
+    <footer><div class="logo"><a href="/index"><img src="images/PV-Coin-Logo.png" style="max-width: 100%; width: 126px; height: 126px;"></a>
+      <a href="/index"><img src="images/PV-Logo.png" class="img-top" style="max-width: 100%; width: 126px; height: 126px;"></a></div>
+    <p>Honest Music Since 2018</p></footer>
+</body>
+</html>
