@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Éliane Radigue - ASYMPTOTE VERSATILE (1963-64) - Primordial Void</title>
+    <link rel="icon" href="images/PV-Logo-Silhouette.png">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <style>
+body, html {
+  box-sizing: border-box;
+  color: black;
+  background-color: #E6E6FA;
+  font-size: 29.560px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+footer {
+    background-color: #E6E6FA;
+    color: black;
+    font-size: 19.560px;
+    margin-top: 140px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+	    
+	        
+	    a:link { color: black;
+     background-color: #E6E6FA;
+	 text-decoration: none;
+	    
+	}
+    a:hover {
+     background-color: #E6E6FA;
+     text-decoration: underline;
+     font-weight: none;
+     color: black;
+     }
+     a:visited {color: black;
+     background-color: #E6E6FA;}
+
+.topnav {
+  overflow: visible;
+  background-color: #E6E6FA;
+  margin-top: 40px;
+  margin-bottom: 140px;
+  text-align: center;
+display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.topnav a {
+  background-color: #E6E6FA;
+  color: black;
+  margin-right: 20px;
+  text-decoration: none;
+  font-size: 29.560px;
+  line-height: normal;
+  border: 2px solid black;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+}
+
+.topnav a:hover {
+  text-decoration: none;
+  background-color: black;
+  color: #E6E6FA;
+}
+
+.topnav a.active {
+  background-color: black;
+  text-decoration: underline;
+  color: #E6E6FA;
+}
+
+		.topnav2 {
+  overflow: visible;
+  background-color: #E6E6FA;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.topnav2 a {
+  background-color: #d1e5ff;
+  color: black;
+  margin-right: 40px;
+  text-decoration: none;
+  font-size: 39.560px;
+  font-weight: bold;
+  line-height: normal;
+  border: 2px solid #d1e5ff;
+  border-radius: 19.560px;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+}
+
+.topnav2 a:hover {
+  text-decoration: none;
+  background-color: black;
+  border: 2px solid black;
+  color: #d1e5ff;
+}
+
+.topnav2 a.active {
+  background-color: black;
+  border: 2px solid black;
+  text-decoration: underline;
+  color: #d1e5ff;
+}
+
+.left {
+ float: left;
+ width: 550px;
+}
+
+.desc {
+    overflow:hidden;
+    padding-left: 10px;
+    margin-right: 10px;
+}
+
+.stuff {
+  margin-left: 66px;
+  margin-right: 66px;
+  text-align: left;
+}
+
+.stuff2 {
+  align-content: center;
+}
+
+.float{
+	width:80px;
+	height:80px;
+	bottom:30px;
+  right:30px;
+  top: 30px;
+	border-radius:50px;
+}
+
+.my-float{
+	margin-top:22px;
+}
+
+.logo {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+}
+
+.green_text {
+  color: green;
+}
+
+    ol { 
+    list-style-type: decimal-leading-zero;
+}
+
+.row {
+    background-color: transparent;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.flex-container {
+    flex-direction:row;
+    display: -webkit-flex;
+    display: inline-flex;
+    width: auto;
+    align-content: center;
+    flex-flow: row wrap;
+    margin-top: 100px;
+    justify-content: center;
+}
+
+.logo {
+  max-width: 100%;
+  width: 126px;
+  height: 126px;
+  position: relative;
+        display: inline-block;
+        margin-top: auto;
+        margin-bottom: auto;
+}
+
+.logo .img-top {
+  display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 99;
+}
+
+.logo:hover .img-top {
+  display: inline;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  border: 2px solid black;
+  border-bottom: none;
+  text-align: left;
+  font-weight: normal;
+  font-size: 29.560px;
+  font-family: Times;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+}
+
+.catno {
+font-size: 29.560px;
+font-family: Times;
+text-align: right;
+}
+
+td a {
+  display: block;
+  display: flex;
+  justify-content: space-between;
+  min-height:100%;
+  width:100%;
+  background-color: #E6E6FA;
+  color: black;
+  text-decoration: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+td a.link {
+  display: block;
+  width: 100%;
+}
+
+td a:hover {
+  text-decoration: none;
+  background-color: black;
+  color: #E6E6FA;
+}
+
+		@media (max-width: 768px) {
+  .my-element {
+    width: 50%;
+  }
+}
+	   
+    </style>
+</head>
+<body>
+  <div class="topnav">
+        <a href="/index">Primordial Void</a>
+        <a href="/about">About</a>
+        <a href="/shows">Shows</a>
+        <a style="background-color: black; color: #E6E6FA;" href="/Distro">Distro</a>
+	  <a href="https://www.instagram.com/primordial.void/" target="_blank">Instagram</a>	    	    	    	    
+	    <a href="https://www.youtube.com/channel/UCinQWec3PCrbEQeNQ6j4eHQ" target="_blank">YouTube</a>
+	     <a href="mailto:primordialvoiddd@gmail.com" target="_blank">Email</a>
+      </div>
+    <div class="stuff">
+        <p style="font-size: 59.560px; margin-bottom: 20px; font-weight: bold;">Éliane Radigue - ASYMPTOTE VERSATILE (1963-64)</p>
+      <p><img src="images/a4294128433_10.jpg" style="max-width: 100%;"></p>
+    <p class="topnav2"><a href="https://square.link/u/W3XQHOR8" target="_blank">Buy CD <span class="green_text">$20</span></a></p></p>  
+        <ul>
+<li>2025 repress of Mark Ernestus and Moritz von Oswald's defining Rhythm & Sound release.</li>
+        </ul>  
+    <p><b>Track Listing</b></p>
+<p>A Carrier
+<br>B1 Density
+<br>B2 Outward</p>
+				<p><strong>Catalog Number</strong> RS05
+<br><strong>Release Date</strong> 2025
+<br><strong>Record Label</strong> Rhythm & Sound
+           <br><strong>Format</strong> 12"</p>
+		<p><em>Carrier</em> is otherworldly, densely layered, and the crowning achievement of <b>Mark Ernestus</b> and <b>Moritz von Oswald</b>'s <b>Rhythm & Sound</b> project. It's some of the most deeply influential dub techno you'll ever hear in your life, so of course we're stoked it's been repressed (just in time for the holidays!). Highly recommended.
+<p><iframe width="1280" height="720" src="https://www.youtube.com/embed/tOaFFlR-QBo?si=Y0nJS9TA28aPS3Mo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
+	</div>
+          </div>
+          </div> 
+      </div>
+    </div>
+    <footer><div class="logo"><a href="/index"><img src="images/PV-Coin-Logo.png" style="max-width: 100%; width: 126px; height: 126px;"></a>
+      <a href="/index"><img src="images/PV-Logo.png" class="img-top" style="max-width: 100%; width: 126px; height: 126px;"></a></div>
+    <p>Honest Music Since 2018</p></footer>
+</body>
+</html>
